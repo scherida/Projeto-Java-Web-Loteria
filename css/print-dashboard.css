@@ -1,13 +1,13 @@
 .only-print{
-    display: none;
+    display: none !important;
 }
 
 @media print {
     .no-print{
-        display: none;
+        display: none !important;
     }
 
     .only-print{
-        display: block;
+        display: block !important;
     }
 }
